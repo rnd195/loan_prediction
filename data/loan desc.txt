@@ -1,0 +1,14 @@
+• Loan ID – Unique loan ID
+• Loan Status – Target variable indicating whether the client repaid his/her loan on time (Y) or not (N)
+• Gender – Categorical variable taking values of Male or Female
+• Dependents – The number of dependents of the client
+• Marital Status – Categorical variable taking values of yes(Y) if client is married or no(N) otherwise
+• Education – Categorical variable taking values of Graduate or Under-graduate
+• Self Employed – Categorical variable taking values of yes(Y) if client is self-employed or no(N) otherwise
+• ApplicantIncome – Monthly income in USD
+• CoApplicantIncome – Monthly income of co-applicant in USD
+• LoanAmount – Loan amount expressed in thousands of USD
+• Loan Amount Term – Term of the loan in months
+• Credit History – Categorical variable taking values of yes(Y) if credit history of the client meets guide-
+lines or no(N) otherwise
+• Property Area – Categorical variable taking values of Urban, Semi-Urban and Rural
