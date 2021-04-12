@@ -31,7 +31,7 @@ By observing the results in Figure 4, we believe that we should eliminate `Depen
 
 #### Base model
 
-The variable `Credit_History` had by far, the best performance in terms of AUC, and thus, let us use it in the baseline model. The following equation will be estimated using the linear probability, probit and logit models, where `Y_i=P(Loan_Status_Int_i = 1|x)` is the response probability and *u​* is the error term:
+The variable `Credit_History` had by far, the best performance in terms of AUC, and thus, let us use it in the baseline model. The following equation will be estimated using the linear probability, probit and logit models, where *Y_i=P(Loan_Status_Int_i = 1|x)* is the response probability and *u​* is the error term:
 
 
 
