@@ -102,24 +102,23 @@ After trying a few other specifications, we concluded that focusing on the credi
 
 #### Appendix
 
-<img src="img\missing.png" alt="missing" style="zoom: 80%;" />
 
 <div align = center>Figure 1 - Proportion of missing values per variable</div>
+<img src="img\missing.png" alt="missing" style="zoom: 80%;" />
 
-
-
-<img src="img\stacked_bar_categ.png" alt="stacked_bar_categ" style="zoom:80%;" />
 
 <div align = center>Figure 2 - Barplots for categorical variables in the context of the dependent variable</div>
+<img src="img\stacked_bar_categ.png" alt="stacked_bar_categ" style="zoom:80%;" />
 
 
-
-<img src="img\stacked_bar_num.png" alt="stacked_bar_num" style="zoom: 80%;" />
 
 <div align = center>Figure 3 - Barplots for binned numerical variables in the context of the dependent variable</div>
+<img src="img\stacked_bar_num.png" alt="stacked_bar_num" style="zoom: 80%;" />
 
 
 
+
+<div align = center>Figure 4 - Variable performance test by AUC</div>
 ```
 Gender_pred training AUC: 0.5293			Credit_History_pred training AUC: 0.6876
 Gender_pred testing AUC: 0.5217				Credit_History_pred testing AUC: 0.8044
@@ -135,48 +134,52 @@ Loan_Amount_Term_pred training AUC: 0.5442
 Loan_Amount_Term_pred testing AUC: 0.6395
 ```
 
-<div align = center>Figure 4 - Variable performance test by AUC</div>
 
 
 
 
+<div align = center>Figure 5 - APE of the probit coefficients</div>
 ```
 ApplicantIncome		Credit_History1		Married		Semiurban	   Urban
 1.126e-05          	0.6544				0.08836		0.1529	  	   0.03475
 ```
 
-<div align = center>Figure 5 - APE of the probit coefficients</div>
 
 
 
+<div align = center>Figure 6 - APE of the logit coefficients</div>
 ```
 ApplicantIncome		Credit_History1		Married		Semiurban	   Urban
 1.202e-05			0.6525				0.08557		0.152		   0.03338
 ```
 
-<div align = center>Figure 6 - APE of the logit coefficients</div>
 
 
-
-<img src="img\ROC_logit.png" alt="stacked_bar_num" align="middle" style="zoom: 67%;" />
 
 <div align = center>Figure 7 - ROC of the logit model</div>
+<img src="img\ROC_logit.png" alt="stacked_bar_num" align="middle" style="zoom: 67%;" />
 
-<img src="img\ROC_probit.png" alt="stacked_bar_num" align="middle" style="zoom: 67%;" />
+
 
 <div align = center>Figure 8 - ROC of the probit model</div>
+<img src="img\ROC_probit.png" alt="stacked_bar_num" align="middle" style="zoom: 67%;" />
 
 
 
-<img src="img\confusion.png" alt="stacked_bar_num" align="middle" style="zoom: 33%;" />
 
 <div align = center>Figure 9 - Confusion Matrix</div>
+<img src="img\confusion.png" alt="stacked_bar_num" align="middle" style="zoom: 33%;" />
 
 
 
-<img src="img\table.png" alt="table" style="zoom:80%;" />
 
 <div align = center>Figure 10 - Estimation results</div>
+<img src="img\table.png" alt="table" style="zoom:80%;" />
+
+
+
+
+<div align = center>Figure 11 - Loan dataset summary</div>
 
 <div class="container st-container">
   <table class="table table-striped table-bordered st-table st-table-striped st-table-bordered st-multiline ">
@@ -347,5 +350,4 @@ ApplicantIncome		Credit_History1		Married		Semiurban	   Urban
 
 
 
-<div align = center>Figure 11 - Loan dataset summary</div>
 
