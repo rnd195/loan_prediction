@@ -119,6 +119,7 @@ After trying a few other specifications, we concluded that focusing on the credi
 
 
 <div align = center>Figure 4 - Variable performance test by AUC</div>
+
 ```
 Gender_pred training AUC: 0.5293			Credit_History_pred training AUC: 0.6876
 Gender_pred testing AUC: 0.5217				Credit_History_pred testing AUC: 0.8044
@@ -136,9 +137,8 @@ Loan_Amount_Term_pred testing AUC: 0.6395
 
 
 
-
-
 <div align = center>Figure 5 - APE of the probit coefficients</div>
+
 ```
 ApplicantIncome		Credit_History1		Married		Semiurban	   Urban
 1.126e-05          	0.6544				0.08836		0.1529	  	   0.03475
@@ -148,6 +148,7 @@ ApplicantIncome		Credit_History1		Married		Semiurban	   Urban
 
 
 <div align = center>Figure 6 - APE of the logit coefficients</div>
+
 ```
 ApplicantIncome		Credit_History1		Married		Semiurban	   Urban
 1.202e-05			0.6525				0.08557		0.152		   0.03338
